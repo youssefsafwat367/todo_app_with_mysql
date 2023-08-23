@@ -1,0 +1,105 @@
+body {
+	background-color: #f1f1f1;
+}
+
+.login-box, .register-box, .welcome-box {
+	width: 350px;
+	background-color: #ffffff;
+	margin: auto;
+	margin-top: 50px;
+	padding: 60px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.login-box h1, .register-box h1, .welcome-box h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.login-box label, .register-box label {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	border-block-style: revert;
+}
+
+.login-box input[type="submit"],
+.register-box input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.4s ease-in-out;
+}
+
+.login-box input[type="submit"]:hover,
+.register-box input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.login-box p, .register-box p, .welcome-box p {
+	margin-top: 20px;
+}
+
+.login-box p a, .register-box p a, .welcome-box a {
+	color: #4CAF50;
+}
+
+.login-box p a:hover, .register-box p a:hover, .welcome-box a:hover {
+	color: #3e8e41;
+	
+}
+.user_email_and_password {
+	background-color: red;
+	padding: 10px; 
+
+}
+.username{
+	background-color: red;
+	padding: 10px;
+	color: white;
+}
+.email{
+	background-color: rgb(27 0 255);
+	padding: 10px;
+	color: white;
+}
+.welcome-box .update , .view , .delete , .tasks{
+	color:  blueviolet;
+	border-style:solid;
+	border-color: rgb(234, 234, 233);
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+	margin-right: 10px;
+	background-color: rgb(0, 0, 0);
+}
+.welcome-box .view {
+	color: blue;
+}
+.welcome-box .delete {
+	color: red;
+}
+.welcome-box .tasks {
+	color: white;
+}
